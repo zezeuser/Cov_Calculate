@@ -20,7 +20,7 @@ add_executable(demo
     demo.cpp
     cov_calculate.h
 )
-target_link_libraries(cov_demo 
+target_link_libraries(demo 
     ${catkin_LIBRARIES}
     ${EIGEN3_INCLUDE_DIRS}
     )
