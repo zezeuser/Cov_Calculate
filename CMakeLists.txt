@@ -16,8 +16,9 @@ include_directories(
     ${catkin_INCLUDE_DIRS}
     ${EIGEN3_INCLUDE_DIRS}
 )
-add_executable(cov_demo
-    cov_demo.cpp
+add_executable(demo
+    demo.cpp
+    cov_calculate.h
 )
 target_link_libraries(cov_demo 
     ${catkin_LIBRARIES}
